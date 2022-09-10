@@ -108,7 +108,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID: "oOd0E5-GyfJZSoPLuDdMdKjP4_ZY",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -116,7 +116,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oOd0E5-GyfJZSoPLuDdMdKjP4_ZY",
     },
   ],
 
@@ -144,7 +144,7 @@ export const config = {
    */
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "老婆", "year": "2002", "date": "10-02"},
+    {"type": "*生日", "name": "王姝元小朋友", "year": "2002", "date": "10-02"},
     //{"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
     {"type": "生日", "name": "你小弟", "year": "2002", "date": "03-15"},
@@ -156,7 +156,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 2,
+  FESTIVALS_LIMIT: 0,
 
   /** 日期相关 */
 
